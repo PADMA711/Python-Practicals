@@ -1,0 +1,9 @@
+s = input("Enter a string: ")
+sub = input("Enter substring: ")
+
+index = s.find(sub)
+
+if index != -1:
+    print("Substring found at index:", index)
+else:
+    print("Substring not found")
