@@ -1,0 +1,13 @@
+file = open("sample.txt", "w")
+
+file.write("Hello! This is my Python practical.")
+file.close()
+
+file = open("sample.txt", "r")
+
+content = file.read()
+
+print("File content:")
+print(content)
+
+file.close()
